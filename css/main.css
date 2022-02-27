@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("../bg.png");
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .container-score {
+  background-color: rgb(242, 120, 120);
+  text-align: center;
+  padding: 5px 15px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+.grid {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid div {
+  height: 70px;
+  width: 70px;
+}
